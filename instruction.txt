@@ -1,0 +1,37 @@
+13
+split 4
+matchany
+jump 1
+match a
+match b
+split 11
+match a
+match b
+jump 10
+accept_partial
+match b
+match b
+jump 10
+
+
+10
+match a
+match b
+split 7
+match a
+match b
+jump 10
+match b
+match b
+jump 10
+accept_partial
+
+
+7
+match w
+match h
+split 5
+match o
+jump 6
+match y
+accept_partial
